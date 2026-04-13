@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
-  
+  <link rel="stylesheet" href="styles.css">
   <title>Frontend Mentor | Social links profile</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
@@ -15,20 +15,32 @@
   </style>
 </head>
 <body>
-
-  Jessica Randall
-  London, United Kingdom
-  "Front-end developer and avid reader."
-
-  GitHub
-  Frontend Mentor
-  LinkedIn
-  Twitter
-  Instagram
-  
+  <main class="page">
+    <article class="profile-card">
+      <section class="profile">
+        <figure class="profile-picture-container">
+          <img class="profile-picture" src="assets/images/avatar-jeff.jpg" alt="">
+        </figure>
+        <div class="information">
+          <h1 class="name">Jeffrey Riazonda</h1>
+          <h2 class="address">Cagayan, Philippines</h2>
+        </div>   
+      </section>
+      <p class="description">"Front-end developer and avid reader."</p>
+      <nav class="socials">
+        <ul class="social-links">
+          <li class="links"><a href="https://github.com/Jefgit">GitHub</a></li>
+          <li class="links"><a href="https://www.frontendmentor.io/profile/Jefgit">Frontend Mentor</a></li>
+          <li class="links"><a href="https://www.linkedin.com/in/jeffrey-riazonda/">LinkedIn</a></li>
+          <li class="links"><a href="">Twitter</a></li>
+          <li class="links"><a href="">Instagram</a></li>
+        </ul>
+      </nav>
+    </article>
+  </main>
   <footer class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+    Coded by <a href="#">Jeffrey Riazonda</a>.
   </footer>
 </body>
 </html>
