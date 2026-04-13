@@ -32,6 +32,7 @@ body {
   display: flex;
   flex-direction: column;
   gap: 2em;
+  width: clamp(15rem, 90vw, 25rem);
   background-color: var(--Grey-800);
   padding: 1.75rem;
   border-radius: 0.875rem;
@@ -63,6 +64,7 @@ body {
 }
 
 .name {
+  text-align: center;
   font-size: 1.75em;
   color: var(--White);
   font-weight: 400;
@@ -74,6 +76,7 @@ body {
 }
 
 .description {
+  text-align: center;
   color: var(--White);
 }
 
